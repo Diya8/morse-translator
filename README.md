@@ -25,6 +25,6 @@ python morse_translator.py
 ![TEXT_WINDOW](./img/text.png)
 ![MORSE_RES_WINDOW](./img/morse_res.png)
 
-###Decoding
+### Decoding
 ![MORSE_WINDOW](./img/morse.png)
 ![TEXT_RES_WINDOW](./img/text_res.png)
