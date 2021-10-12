@@ -43,7 +43,7 @@ else:
     result = decoder(decode_val[0])
     decode_window.close()
 
-result_layout = [   [sg.Text('Morse Code')], [sg.Text(result, size=(40,1))], [sg.Button('Exit')] ]
+result_layout = [   [sg.Text('Decoded Text')], [sg.Text(result, size=(40,1))], [sg.Button('Exit')] ]
 result_window = sg.Window('Result', result_layout)
 event, val = result_window.read()
 print(result)
